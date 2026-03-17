@@ -1,0 +1,48 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+.idea/
+.vscode/
+*.iml
+
+# Local toolchains and SDKs
+tools/android-sdk/
+tools/flutter/
+
+# Flutter / Dart generated files
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+**/build/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Platform-specific generated files
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.*
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Keep the generated release APK available in the repo
+!mobile_mockup/build/
+mobile_mockup/build/*
+!mobile_mockup/build/app/
+mobile_mockup/build/app/*
+!mobile_mockup/build/app/outputs/
+mobile_mockup/build/app/outputs/*
+!mobile_mockup/build/app/outputs/apk/
+mobile_mockup/build/app/outputs/apk/*
+!mobile_mockup/build/app/outputs/apk/release/
+mobile_mockup/build/app/outputs/apk/release/*
+!mobile_mockup/build/app/outputs/apk/release/app-release.apk
+
