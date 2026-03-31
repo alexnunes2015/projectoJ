@@ -1,0 +1,24 @@
+{
+  "municipios": [
+    {
+      "id": "municipio-root",
+      "nome": "Município Root",
+      "created_at": "2026-03-31T00:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-root",
+      "nome": "Root",
+      "email": "root",
+      "password": "$2a$10$MIsbjfDCjg4VIh5Eno77Q.bus4BhlQ6ENFRi58BBAHhNy76bPsbbe",
+      "role": "admin",
+      "municipio_id": "municipio-root",
+      "created_at": "2026-03-31T00:00:00.000Z"
+    }
+  ],
+  "categories": [],
+  "reports": [],
+  "reportUpdates": [],
+  "reportCategories": []
+}

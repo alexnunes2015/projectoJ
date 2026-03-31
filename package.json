@@ -1,0 +1,13 @@
+{
+  "name": "projectoj-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "start:backend": "npm --prefix backend run start",
+    "dev:backoffice": "npm --prefix backoffice run dev",
+    "start:backoffice": "npm --prefix backoffice run preview",
+    "dev:mobile": "cd mobile_mockup && flutter run",
+    "test:mobile": "cd mobile_mockup && flutter test"
+  }
+}

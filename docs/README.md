@@ -20,10 +20,16 @@ Este diretorio concentra a documentacao inicial do MVP de uma plataforma para re
 O produto tera tres blocos principais:
 
 1. App mobile em Flutter para o cidadao reportar ocorrencias com foto, localizacao e descricao.
-2. Backend em Firebase para autenticacao, armazenamento, processamento e persistencia dos dados.
-3. Backoffice web em React/Next.js para o municipio consultar, filtrar e gerir relatos.
+2. Backend para autenticacao, armazenamento, processamento e persistencia dos dados.
+3. Backoffice web para o municipio consultar, filtrar e gerir relatos.
 
 A analise automatica de imagem sera feita com Google Vision API, acionada a partir de Cloud Functions apos upload da foto.
+
+## Estrutura atual do repositorio
+
+- `backend/` - API Node/Express com persistencia local em JSON.
+- `backoffice/` - front-end web separado do backend.
+- `mobile_mockup/` - app Flutter/mockup mobile.
 
 ## Estado atual
 

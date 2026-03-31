@@ -12,6 +12,7 @@
       --text: #1f2933;
       --accent: #0f766e;
       --accent-hover: #115e59;
+      --muted: #52606d;
       --shadow: rgba(15, 23, 42, 0.12);
     }
 
@@ -52,6 +53,11 @@
       line-height: 1.5;
     }
 
+    .actions {
+      display: grid;
+      gap: 12px;
+    }
+
     a {
       display: inline-block;
       padding: 16px 24px;
@@ -61,6 +67,19 @@
       text-decoration: none;
       font-weight: 700;
       transition: background 160ms ease, transform 160ms ease;
+    }
+
+    .secondary {
+      background: transparent;
+      border: 1px solid rgba(15, 118, 110, 0.2);
+      color: var(--accent);
+    }
+
+    small {
+      display: block;
+      margin-top: 20px;
+      color: var(--muted);
+      line-height: 1.5;
     }
 
     a:hover,
@@ -73,10 +92,18 @@
 <body>
   <main>
     <h1>projectoJ</h1>
-    <p>Download direto da versão Android disponível.</p>
-    <a href="mobile_mockup/build/app/outputs/apk/release/app-release.apk" download>
-      Descarregar APK
-    </a>
+    <p>Workspace com backend, backoffice e app mobile separados.</p>
+    <div class="actions">
+      <a href="mobile_mockup/build/app/outputs/apk/release/app-release.apk" download>
+        Descarregar APK
+      </a>
+      <a class="secondary" href="backoffice/index.html">
+        Abrir protótipo do backoffice
+      </a>
+    </div>
+    <small>
+      Backend API em <code>backend/</code>, backoffice em <code>backoffice/</code> e mobile em <code>mobile_mockup/</code>.
+    </small>
   </main>
 </body>
 </html>
